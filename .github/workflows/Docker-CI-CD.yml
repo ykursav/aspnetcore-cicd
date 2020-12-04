@@ -40,6 +40,7 @@ jobs:
       with:
           # Set build context as current (root) directory
           context: ./HealthCheckExampleApp
+          file: ./HealthCheckExampleApp/Dockerfile
           push: true
           tags: |
             ykursav/aspnetcore-example:latest
